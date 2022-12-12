@@ -8,5 +8,5 @@ else
 fi
 cd /Prv-TomAndJerry
 pip3 install -U -r requirements.txt
-echo "Starting Prv-DQ--Auto-filter-...."
+echo "Starting Prv-TomAndJerry...."
 python3 bot.py
