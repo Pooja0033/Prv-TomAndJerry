@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Pooja0033/Prv-DQ--Auto-filter-.git /Prv-DQ--Auto-filter-
+  git clone https://github.com/Pooja0033/Prv-TomAndJerry.git /Prv-TomAndJerry
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Prv-DQ--Auto-filter-
+  git clone $UPSTREAM_REPO /Prv-TomAndJerry
 fi
-cd /Prv-DQ--Auto-filter-
+cd /Prv-TomAndJerry
 pip3 install -U -r requirements.txt
 echo "Starting Prv-DQ--Auto-filter-...."
 python3 bot.py
